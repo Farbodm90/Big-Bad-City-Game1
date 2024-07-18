@@ -15,10 +15,10 @@
       <AudioIndexer>0</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
-      <BuildTargets>Windows</BuildTargets>
+      <BuildTargets xml:space="preserve">Windows, Linux, Web</BuildTargets>
       <ClipGUIControls>True</ClipGUIControls>
       <ColorDepth>TrueColor</ColorDepth>
-      <CompressSpritesType>None</CompressSpritesType>
+      <CompressSpritesType>LZW</CompressSpritesType>
       <CustomDataDir IsNull="True" />
       <CustomResolution>320,200</CustomResolution>
       <DebugMode>True</DebugMode>
@@ -61,9 +61,9 @@
       <RenderAtScreenResolution>UserDefined</RenderAtScreenResolution>
       <RoomTransition>FadeOutAndIn</RoomTransition>
       <RunGameLoopsWhileDialogOptionsDisplayed>False</RunGameLoopsWhileDialogOptionsDisplayed>
-      <SaveGameFileExtension />
+      <SaveGameFileExtension>bigbadcity1save</SaveGameFileExtension>
       <SaveGameFolderName xml:space="preserve">Big Bad City 1</SaveGameFolderName>
-      <SaveScreenshots>False</SaveScreenshots>
+      <SaveScreenshots>True</SaveScreenshots>
       <ScaleCharacterSpriteOffsets>True</ScaleCharacterSpriteOffsets>
       <ScaleMovementSpeedWithMaskResolution>False</ScaleMovementSpeedWithMaskResolution>
       <ScriptAPIVersion>Highest</ScriptAPIVersion>
@@ -89,7 +89,7 @@
       <WhenInterfaceDisabled>GreyOut</WhenInterfaceDisabled>
     </Settings>
     <RuntimeSetup>
-      <AAScaledSprites>False</AAScaledSprites>
+      <AAScaledSprites>True</AAScaledSprites>
       <AutoLockMouse>False</AutoLockMouse>
       <CustomAppDataPath IsNull="True" />
       <CustomSavePath />
@@ -99,11 +99,11 @@
       <GameScaling>MaxInteger</GameScaling>
       <GameScalingMultiplier>1</GameScalingMultiplier>
       <GraphicsDriver>D3D9</GraphicsDriver>
-      <GraphicsFilter>stdscale</GraphicsFilter>
+      <GraphicsFilter>linear</GraphicsFilter>
       <MouseSpeed>1</MouseSpeed>
-      <RenderAtScreenResolution>False</RenderAtScreenResolution>
+      <RenderAtScreenResolution>True</RenderAtScreenResolution>
       <Rotation>Unlocked</Rotation>
-      <ShowFPS>False</ShowFPS>
+      <ShowFPS>True</ShowFPS>
       <SoundCacheSize>32</SoundCacheSize>
       <SpriteCacheSize>128</SpriteCacheSize>
       <TextureCacheSize>128</TextureCacheSize>
@@ -114,7 +114,7 @@
       <UseCustomAppDataPath>False</UseCustomAppDataPath>
       <UseCustomSavePath>False</UseCustomSavePath>
       <UseVoicePack>True</UseVoicePack>
-      <VSync>False</VSync>
+      <VSync>True</VSync>
       <Windowed>False</Windowed>
     </RuntimeSetup>
     <LipSync>
